@@ -228,25 +228,25 @@ input[type=submit] {
 
 /* Images: */
 
-#country-img-1{
+#country-img-1 {
     width: 240px;
     height: 200px;
     background: url("/img/Rectangle1.jpg");
 }
 
-#country-img-2{
+#country-img-2 {
     width: 240px;
     height: 200px;
     background: url("/img/Rectangle2.jpg");
 }
 
-#country-img-3{
+#country-img-3 {
     width: 240px;
     height: 200px;
     background: url("/img/Rectangle3.jpg");
 }
 
-#country-img-4{
+#country-img-4 {
     width: 240px;
     height: 200px;
     background: url("/img/Rectangle4.jpg");
@@ -295,6 +295,7 @@ input[type=submit] {
     }
 
     input[type=submit] {
+        -webkit-appearance: none;
         background: #fd4f32;
         color: white;
         border: none;
@@ -315,8 +316,8 @@ input[type=submit] {
         margin-left: 35px;
         text-align: left;
     }
-    /**/
 
+    /**/
     .main-container {
         width: 100%;
     }
